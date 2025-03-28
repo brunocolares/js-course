@@ -15,3 +15,7 @@ console.log(isValid(false))
 const isValidArrow = () => 2*2;
 
 console.log(isValidArrow())
+
+const getFirstName = nomeCompleto => nomeCompleto.split(" ")[0];
+
+console.log(`Primeiro nome: ${getFirstName("Bruno Colares")}`)
